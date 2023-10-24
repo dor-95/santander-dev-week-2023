@@ -46,3 +46,20 @@ classDiagram
   User "1" *-- "1" Card
   User "1" *-- "N" News
 ```
+
+## Routes
+
+![Routes](routes.png)
+
+## Deploy - Documentação da API
+
+#### [https://sdw23.up.railway.app/swagger-ui/index.html#/](https://sdw23.up.railway.app/swagger-ui/index.html#/)
+
+## 🛠️ Tecnologias Utilizadas
+
+- spring initialzr
+- spring-boot-starter-web
+- spring-boot-starter-data-jpa
+- springdoc-openapi-starter-webmvc-ui
+- h2
+- postgresql
